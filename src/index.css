@@ -418,3 +418,9 @@ footer .questions {
   gap: 23px;
   margin-right: 32px;
 }
+
+
+.placeholder-white ::placeholder {
+  color: white;
+  opacity: 1; /* Override the default opacity */
+}

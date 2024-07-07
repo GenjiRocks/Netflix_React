@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 
 function Head() {
@@ -14,7 +15,10 @@ function Head() {
                             alt=""
                         /></span>
                     <div>
-                        <Button variant="danger" className="btn btn-red-sm">Sign In</Button>
+                    <Link to="/signin">
+                    <Button  variant="danger" className="btn btn-red-sm">Sign In</Button>
+                    </Link>
+                        
                     </div>
                 </nav>
                 <div className="box"></div>

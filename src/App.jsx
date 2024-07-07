@@ -1,16 +1,20 @@
+import { Route, Routes } from 'react-router-dom'
 import BreakLine from './components/BreakLine'
+import FAQ from './components/FAQ'
 import Fifthsection from './components/Fifthsection'
 import Footer from './components/Footer'
 import Fourthsection from './components/Fourthsection'
 import Head from './components/Head'
 import Secondsection from './components/Secondsection'
 import Thirdsection from './components/Thirdsection'
+import HomePage from './pages/HomePage'
+import Signin from './pages/Signin'
 
 function App() {
  
   return (
     <>
-    <Head/>
+    {/* <Head/>
     <BreakLine/>
     <Secondsection/>
     <BreakLine/>
@@ -20,7 +24,14 @@ function App() {
     <BreakLine/>
     <Fifthsection/>
     <BreakLine/>
-    <Footer/>
+    <FAQ/>
+    <BreakLine/>
+    <Footer/> */}
+    <Routes>
+      <Route path='/' element={<HomePage/>}></Route>
+      <Route path='/signin' element={<Signin/>}></Route>
+    </Routes>
+    
     
     </>
   )
