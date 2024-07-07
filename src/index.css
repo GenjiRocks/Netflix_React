@@ -97,7 +97,7 @@ nav button {
 .btn-red {
   background-color: red;
   color: white;
-  padding: 3px 37px;
+  padding: px 37px;
   font-size: 1.5rem;
   border-radius: 4px;
   font-weight: 400;
@@ -139,6 +139,8 @@ nav button {
   margin: auto;
   color: white;
   align-items: center;
+ justify-content: center;
+ 
 }
 
 .third {
@@ -164,7 +166,7 @@ nav button {
 section.first > div {
   display: flex;
   flex-direction: column;
-  padding: 34px 0;
+  padding:34px 0;
   position: relative;
 }
 

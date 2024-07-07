@@ -26,7 +26,7 @@ function Head() {
                         membership.</span
                     >
                     <div className="hero-buttons">
-                        <input style={{height:'54px',width:'43  0px'}} type="email" placeholder="Email Address" />
+                        <input style={{height:'54px',width:'330px'}} type="email" placeholder="Email Address" />
                         <Button variant="danger"  className="btn btn-red">Get Started {'>'} </Button>
                     </div>
                 </div>
