@@ -1,8 +1,35 @@
-# React + Vite
+# React Netflix Clone Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Link
+You can view the live project [here](<https://netflix-react-dun-ten.vercel.app/>).
 
-Currently, two official plugins are available:
+## Introduction
+Cloned two front-end pages of the Netflixwebsite to replicate its design and user interface using React JS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+To install the project, follow these steps:
+
+1. **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/GenjiRocks/Netflix_React.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```sh
+    cd Netflix_React
+
+    ```
+
+3. **Install the dependencies:**
+
+    ```sh
+    npm install
+    ```
+
+## Running the Project
+To run the project, use the following command:
+
+```sh
+npm run dev
